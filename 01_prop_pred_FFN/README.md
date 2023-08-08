@@ -4,7 +4,8 @@ The repository uses a feed forward network applied to molecule Morgan Fingerprin
 
 ## Install
 
-Install the conda environment (this installs a virtual environment, with the right packages, making it easier for people to use your code):
+Install the conda environment (this installs a virtual environment, with the right packages, making it easier for people to use your code).
+Enviornment.yml contains name of environment, channels(remote repositories with import packages), and dependencies
 ```
 conda env create -f enviornment.yml
 pip install -r requirements.txt
